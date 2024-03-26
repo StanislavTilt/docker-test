@@ -1,0 +1,30 @@
+openapi: 3.0.3
+info:
+  title: Laravel
+  description: ''
+  version: 1.0.0
+servers:
+  -
+    url: 'http://localhost'
+paths:
+  /api/test:
+    get:
+      summary: 'test api doc'
+      operationId: testApiDoc
+      description: ''
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: ''
+      tags:
+        - Test
+      security: []
+tags:
+  -
+    name: Test
+    description: ''
